@@ -19,5 +19,12 @@
         "psr-4": {
             "SocialiteProviders\\BrunSolutions\\": ""
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SocialiteProviders\\BrunSolutions\\BrunSolutionsExtendSocialite"
+            ]
+        }
     }
 }
