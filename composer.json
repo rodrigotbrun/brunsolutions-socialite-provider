@@ -1,0 +1,23 @@
+{
+    "name": "brunsolutions/socialite-provider",
+    "version": "0.0.1",
+    "type": "library",
+    "description": "BrunSolutions OAuth2 Provider for Laravel Socialite",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rodrigo Brun",
+            "email": "rodrigotbrun@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2 || ^8.0",
+        "ext-json": "*",
+        "socialiteproviders/manager": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SocialiteProviders\\BrunSolutions\\": ""
+        }
+    }
+}
